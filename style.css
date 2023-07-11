@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.non_active{
+    display: none;
+}
+.active{
+    display: flex;
+}
+.ninp{
+    display: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #CFDBDA;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    background-color: #CABD9A;
+    border-radius: 15px;
+    box-shadow: 5px 5px #00000044;
+}
+.inp{
+    width: 85%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inp button{
+    width: 3rem;
+    height: 2rem;
+    border: 0px;
+    border-radius: 10px;
+    margin: 2px;
+}
+.inp button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #8AAAA5;
+}
+.visel img{
+    width: 100%;
+}
+.visel{
+    width: 30%;
+}
+main a{
+    padding: 1%;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #8AAAA5;
+}
+main a:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    *{
+        font-size: 17px;
+    }
+    main{
+        width: 100%;
+    }
+    main a{
+        padding: 2%;
+    }
+    .visel{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 299px) {
+    *{
+        font-size: 14px;
+    }
+    main{
+        width: 100%;
+    }
+    main a{
+        padding: 3%;
+    }
+    .visel{
+        width: 50%;
+    }
+}
