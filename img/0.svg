@@ -1,5 +1,11 @@
-<svg width="195" height="228" viewBox="0 0 195 228" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="0.990891" y1="225.756" x2="194.008" y2="225.756" stroke="black"/>
-<line x1="1" y1="0.5" x2="114" y2="0.5" stroke="black"/>
-<line x1="1.5" y1="227.002" x2="1.5" y2="0.999985" stroke="black"/>
+<svg width="194" height="228" viewBox="0 0 194 228" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="226.5" x2="193.017" y2="226.5" stroke="black"/>
+<line x1="0.0091095" y1="0.500015" x2="113.009" y2="0.500015" stroke="black"/>
+<line x1="0.509109" y1="227.002" x2="0.509109" y2="0.999985" stroke="black"/>
+<line x1="112.5" y1="55" x2="112.5" stroke="black"/>
+<path d="M101.667 63.6673L112.627 52.7071L123.588 63.6673C129.641 69.7204 129.641 79.5345 123.588 85.5876C117.534 91.6407 107.72 91.6407 101.667 85.5876C95.6141 79.5345 95.6141 69.7204 101.667 63.6673Z" stroke="black"/>
+<rect x="109" y="47" width="7" height="2" rx="1" fill="black"/>
+<rect x="109" y="51" width="7" height="2" rx="1" fill="black"/>
+<rect x="109" y="53" width="7" height="2" rx="1" fill="black"/>
+<rect x="109" y="49" width="7" height="2" rx="1" fill="black"/>
 </svg>
